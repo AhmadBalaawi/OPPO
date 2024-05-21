@@ -1,0 +1,135 @@
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: #ffffffc6;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.header {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 0, 0, 0.747);
+    padding: 0.5em;
+    text-align: left;
+}
+
+.main {
+    color: #ffffffb9;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    p1 {
+        color: rgba(255, 0, 0, 0.61);
+        font-size: 40px;
+    }
+
+    p3 {
+        color: rgba(255, 0, 0, 0.61);
+        font-size: 40px;
+    }
+
+    p5 {
+        color: rgba(255, 0, 0, 0.61);
+        font-size: 20px;
+    }
+}
+
+.gym-subscription {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    gap: 1rem;
+}
+.box {
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.348);
+    padding: 30px;
+    text-align: center;
+    width: 90%;
+}
+
+.box h3 {
+    font-weight: lighter;
+    color: #ffffffb6;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box p {
+    font-weight: lighter;
+    color: #ffffffb6;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.box ul {
+    font-weight: lighter;
+    color: #ffffffb6;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.box li {
+    margin-bottom: 10px;
+}
+
+.box button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    background-color: rgba(255, 0, 0, 0.548);
+    border: none;
+    border-radius: 5px;
+    color: #ffffffbe;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+ button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2bba00;
+}
