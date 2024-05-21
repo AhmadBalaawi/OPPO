@@ -1,0 +1,128 @@
+:root{
+    --underweight:orange;
+    --normal:green;
+    --overweight:lightcoral;
+    --obese:crimson;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: #ffffffc6;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.header {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 0, 0, 0.747);
+    padding: 0.5em;
+    text-align: left;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.calculator label{
+    flex: 0 1 120px;
+    font-weight: 600; 
+    gap: 2rem;
+}
+
+
+.calculator input{
+    flex:1;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    outline-color: #555;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.calculator button{
+   
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    padding: 10px;
+    background: #01b8bbc9;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+   
+}
+
+
+
+
+.calculator button[type="reset"]{
+    background: #444444;
+}
+
+
+
+
+
+.calculator button:hover{
+    filter: brightness(120%);
+}
+
+
+.output{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.output #bmi {
+    font-size: 4rem;
+}
+
+
+.output #desc strong {
+    text-transform: uppercase;
+}
+
+
+.bmi-scale{
+    display: flex;
+}
+
+
+.bmi-scale div{
+   
+    flex:1;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 5px solid var(--color);
+    padding: 10px;
+    
+}
+
+
+
+.bmi-scale h4{
+    font-size: 0.75rem;
+    color:slategrey;
+}
+
+
+
+
